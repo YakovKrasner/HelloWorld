@@ -1,3 +1,5 @@
-﻿int numberA = 3;
-int numerB = 2;
-Console.WriteLine (numberA + numerB);
+﻿int numberA = new Random().Next(1, 10); // присваиваем случайное значение переменной numberA 1,2,3 ... 9
+Console.WriteLine (numberA);
+int numberB = new Random().Next(1, 10);
+Console.WriteLine (numberB);
+Console.WriteLine (numberA + numberB);
